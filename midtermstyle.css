@@ -1,2 +1,9 @@
 <!DOCTYPE CSS>
 
+.logo{
+  float: center;
+  margin-top: 40px;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-bottom: 20px;
+}
