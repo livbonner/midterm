@@ -1,9 +1,215 @@
 <!DOCTYPE CSS>
 
-.logo{
-  float: center;
-  margin-top: 40px;
-  margin-left: 50%;
-  margin-right: 50%;
-  margin-bottom: 20px;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  margin: 0;
+  margin-right: 50px;
+  margin-left: 30px;
+}
+
+.logo {
+float: left;
+  padding-top: 30px;
+  padding-right: 30px;
+  display: inline;
+}
+
+.list{
+	display: inline-grid;
+	float: left;
+	padding-top: 215px;
+	}
+
+.article{
+  float: right;
+  padding-bottom; 20px;
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin-right: 30px;
+}
+
+.handspic{
+  display: inline-block;
+}
+
+.harticle{
+  font-family: 'Teko', serif;
+  font-size: 35px;
+  color: black;
+  padding-top: 40px;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.date{
+  float: right;
+  margin-right: 30px;
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  color: black;
+  padding-top: 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.hart{
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.handspara{
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+  color: black;
+  margin-right: 30px;
+  margin-top: 30px;
+  display: inline-block;
+  float: right;
+  max-width: 850px;
+  margin-right: 180px;
+  line-height: 28px;
+}
+
+.whatMR{
+  font-family: 'Teko', sans-serif;
+  margin-top: 30px;
+  font-size: 60px;
+  color: black;
+  padding: 14px 25px;
+  text-align: center; 
+  display: block-inline
+  margin-right: 20px;
+}
+
+.p{
+  margin-bottom: 10px;
+}
+
+.list1{
+	font-family: 'Teko', sans-serif;
+	margin-top: 30px;
+	font-size: 20px;
+	background-color: red;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: italicized;
+ 	display: block-inline
+ 	margin-right: 20px;
+}
+
+.list2{
+	font-family: 'Teko', sans-serif;
+	margin-top: 30px;
+	font-size: 20px;
+	background-color: red;
+  	color: white;
+  	padding: 14px 25px;
+  	text-align: center; 
+  	text-decoration: none;
+ 	 display: block-inline
+ 	 margin-right: 40px;
+}
+
+.list3{
+	font-family: 'Teko', sans-serif;
+	margin-top: 30px;
+	font-size: 20px;
+	background-color: red;
+  	color: white;
+  	padding: 14px 25px;
+  	text-align: center; 
+  	text-decoration: none;
+ 	 display: block-inline
+ 	 margin-right: 20px;
+}
+
+.list4{
+	font-family: 'Teko', sans-serif;
+	margin-top: 30px;
+	font-size: 20px;
+	background-color: red;
+  	color: white;
+  	padding: 14px 25px;
+  	text-align: center; 
+  	text-decoration: none;
+ 	 display: block-inline
+ 	}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    margin: 0;
+  }
+}
+
+.lookbook {
+  float: right;
+  display: block-inline;
+  margin-left: 40px;
+  margin-right: 200px;
+  margin-left: 50px;
+  width: 50%;
+  padding-top: 10px;
+  align-content: block;
+}
+}
+
+
+
+a:link, a:visited {
+  background-color: red;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: lightblue;
 }
